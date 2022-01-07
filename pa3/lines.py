@@ -118,13 +118,14 @@ class Line(object):
         """
         Return True if self and other are identical Lines, False otherwise.
         """
+
         '''
-      if self.P.xcoord == other.P.xcoord and self.P.ycoord == other.P.ycoord and self.m == other.m:
-         return True
-      else:
-         return False
-      pass
-      '''
+        if self.P.xcoord == other.P.xcoord and self.P.ycoord == other.P.ycoord and self.m == other.m:
+            return True
+        else:
+            return False
+        '''
+
         # return self.P.xcoord == other.P.xcoord and self.P.ycoord == other.P.ycoord and self.m == other.m
         if self.m == 'infinity' and other.m != 'infinity':
             return False
@@ -187,8 +188,8 @@ class Line(object):
             else:
                 return False
         """
-      Return True if self contains point P, False otherwise.
-      """
+        Return True if self contains point P, False otherwise.
+        """
         pass
     # end
 

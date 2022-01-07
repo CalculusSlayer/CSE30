@@ -19,8 +19,8 @@ import sys
 def include_B(B,i):
     B_copy = B.copy()
     B_copy[i] = 1
-    return B_copy
-    
+    return B_copy    
+
 
 def exclude_B(B,i):
     B_copy = B.copy()

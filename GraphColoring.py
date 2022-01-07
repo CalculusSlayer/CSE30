@@ -1,2 +1,0 @@
-GraphColoring.py
-Loops Rule\!
